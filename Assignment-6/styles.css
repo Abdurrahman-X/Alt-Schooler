@@ -24,7 +24,7 @@ body {
 }
 
 .info-section .icon {
-    width: 50px;
+    width: 80px;
     margin-bottom: 20px;
 }
 .info-section h2 {
@@ -122,3 +122,4 @@ input:focus, select:focus {
     cursor: pointer;
     color: lightgray;
 }
+
