@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="pusher-logo.png" alt="WP Pusher Logo" />
+            WP Pusher
+        </a>
+        <nav class="nav">
+            <a href="#">Download</a>
+            <a href="#">Learn more</a>
+            <a href="#">Pricing</a>
+            <a href="#">Help</a>
+            <a href="#" class="account-btn">Account</a>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <div class="checkout-form">
+            <h1>Checkout</h1>
+            
+            <div class="form-section">
+                <div class="section-header">
+                    <div class="section-number">1</div>
+                    <h2>Your Basic Information</h2>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input type="text" value="Jane" />
+                    </div>
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="text" value="Doe" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>E-mail</label>
+                    <input type="email" value="janedoe@example.com" />
+                </div>
+            </div>
+
+            <div class="form-section">
+                <div class="section-header">
+                    <div class="section-number">2</div>
+                    <h2>Your Payment Information</h2>
+                </div>
+                <div class="form-group card-field">
+                    <label>Credit Card</label>
+                    <!-- <div class="card-fields">
+                        <input type="text" placeholder="Card Number">
+                        <input type="text" placeholder="MM / YY">
+                        <input type="text" placeholder="CVC">
+                    </div> -->
+                    <input type="text"  placeholder="Card Number                                                 MM / YY    CVC" />
+                </div>
+            </div>
+
+            <button class="buy-button">Buy WP Pusher</button>
+
+            <div class="help-text">
+                Need any help? Don't hesitate to <a href="#">contact support</a>!
+            </div>
+
+            <div class="stripe-badge">
+                <img src="stripe.png" alt="Powered by Stripe" />
+            </div>
+        </div>
+
+        <div class="pricing-card">
+            <h2>Freelancer</h2>
+            <div class="price"><sup id="dollar">$</sup>99 <sub class="price-period">/ year</sub></div>
+            <!-- <div class="price-period">/ year</div> -->
+            <div>Automatically renews after 1 year</div>
+
+            <ul class="feature-list">
+                <li>Use on 5 client sites</li>
+                <li>Private repositories</li>
+                <li>Email support</li>
+            </ul>
+
+            <div>Need 20 client sites?</div>
+            <a href="#" style="color: white;">Switch to the Agency plan</a>
+
+            <hr>
+
+            <div class="testimonial">
+                "FTP is horrible to deal with. WP Pusher solves that issue, and the customer support is awesome!"
+                <div class="testimonial-author">
+                    <img src="kirk.png" alt="Kirk Beard" />
+                    <div>Kirk Beard</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

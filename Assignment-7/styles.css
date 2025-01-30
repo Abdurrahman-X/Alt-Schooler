@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; 
+}
+
+body {
+    background-color: #F5F8FA;
+    min-height: 100vh;
+}
+
+h2 {
+    font-family: 'Roboto';
+}
+
+.header {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #1D2939;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+.logo img {
+    width: 50px;
+    height: 40px;
+}
+
+.nav {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #1D2939;
+    font-family: 'Poppins', sans-serif;
+}
+
+.account-btn {
+    border: 1px solid #D0D5DD;
+    padding: 8px 14px;
+    border-radius: 6px;
+    background: white;
+}
+
+.main-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    display: flex;
+    
+}
+
+.checkout-form {
+    flex: 1;
+    background: white;
+    border-radius: 8px;
+    padding: 32px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card {
+    width: 380px;
+    background: #1D93F7;
+    border-radius: 8px;
+    padding: 32px;
+    color: white;
+}
+
+#dollar {
+    font-size: 0.5em;
+    padding-right: 5px;
+}
+
+.price, .price-period {
+    font-family: 'Montserrat';
+}
+
+.price-period {
+    font-size: 0.4em;
+}
+
+h1 {
+    font-size: 24px;
+    color: #1D2939;
+    margin-bottom: 32px;
+}
+
+.form-section {
+    margin-bottom: 32px;
+}
+
+.section-header {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.section-number {
+    width: 34px;
+    height: 34px;
+    background: #EFF8FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1D93F7;
+    font-size: 14px;
+}
+
+
+
+.form-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.form-group {
+    flex: 1;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #1D2939;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D0D5DD;
+    border-radius: 6px;
+    background: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}
+
+.buy-button {
+    width: 100%;
+    padding: 12px;
+    background: #00A167;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 24px;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+.help-text {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 14px;
+    color: #667085;
+}
+
+.help-text a {
+    color: #1D93F7;
+    text-decoration: none;
+}
+
+.pricing-card h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-family: 'Poppins';
+}
+
+.price {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.price-period {
+    opacity: 0.8;
+    margin-bottom: 24px;
+}
+
+.feature-list {
+    list-style: none;
+    margin: 32px 0;
+}
+
+.feature-list li {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.feature-list li::before {
+    content: "✓";
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+hr {
+    width: 90%;
+    margin: 30px 30px 20px 0 ;
+    opacity: 0.6;
+}
+
+.testimonial {
+    margin-top: 48px;
+    font-style: italic;
+    opacity: 0.9;
+    font-family: 'Raleway';
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.testimonial-author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.stripe-badge {
+    text-align: center;
+    margin-top: 32px;
+}
